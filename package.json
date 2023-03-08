@@ -1,0 +1,44 @@
+{
+  "name": "music-recommendations-bot",
+  "version": "1.0.0",
+  "description": "A simple bot to give recommendations from a given song or artist.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "deploy": "node deploy-commands.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torey-Clark/Music-Recommendations-Bot.git"
+  },
+  "keywords": [
+    "bot",
+    "nodejs",
+    "discord.js",
+    "spotify",
+    "music",
+    "recommendations"
+  ],
+  "author": "Torey Clark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Torey-Clark/Music-Recommendations-Bot/issues"
+  },
+  "homepage": "https://github.com/Torey-Clark/Music-Recommendations-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "pino": "^8.11.0",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "nodemon": "^2.0.21",
+    "pino-pretty": "^9.4.0"
+  }
+}
